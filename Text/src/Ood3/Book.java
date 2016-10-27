@@ -2,6 +2,7 @@ package Ood3;
 
 public class Book {
 
+	//声明累的属性
 	String title;
 	Integer page;
 

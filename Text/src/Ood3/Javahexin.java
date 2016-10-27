@@ -3,14 +3,14 @@ package Ood3;
 public class Javahexin extends Book {
 	
 	//被注释的部分为改写父类的方法
-	/*public void print() {
+	public void print() {
 		System.out.println("我是子类");
 	}
 	
 	public String print1(){
 		String str = "我是子类重写父类的print1方法";
 		return str;
-	}*/
+	}
 
 	public static void main(String[] args) {
 
