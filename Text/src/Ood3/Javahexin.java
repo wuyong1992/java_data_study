@@ -8,7 +8,7 @@ public class Javahexin extends Book {
 	}
 	
 	public String print1(){
-		String str = "我是子类重写父类的print1方法";
+		String str = "我是子方法";
 		return str;
 	}
 
