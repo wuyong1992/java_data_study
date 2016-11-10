@@ -1,28 +1,19 @@
-package com.myjava.TextMultithreading;
+package com.myjava.TextThread;
 
-public class Race extends Thread {
-	
-	@Override
-	public void run() {
-		for (int i = 1; i < 10; i++) {
-			System.out.println("兔子跑了"+i+"步");
-		}
-		
-	}
+public class Race {
 	public static void main(String[] args) {
-		new Race().start();
+		
+		new Rabbit().start();
 		new Tortoise().start();
 		
-	}
-
-}
-
-class Tortoise extends Thread {
-
-	@Override
-	public void run() {
 		for (int i = 0; i < 10; i++) {
-			System.out.println("乌龟跑了"+i+"步");
+			System.out.println("*****加油！加油！*****");
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
 	}
+
 }
