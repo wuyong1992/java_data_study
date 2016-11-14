@@ -1,4 +1,4 @@
-package com.myjava.ood;
+package com.myjava.Ood;
 
 import com.sun.corba.se.spi.orbutil.threadpool.Work;
 

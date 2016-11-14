@@ -1,4 +1,4 @@
-package com.myjava.ood02;
+package com.myjava.Ood02;
 
 public class Huma {
 	String name;

@@ -1,4 +1,4 @@
-package com.myjava.ood;
+package com.myjava.Ood;
 
 import java.io.PrintStream;
 

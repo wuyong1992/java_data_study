@@ -1,4 +1,4 @@
-package com.myjava.ood;
+package com.myjava.Ood;
 
 public class Human {
 	
